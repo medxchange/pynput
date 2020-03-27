@@ -1,0 +1,17 @@
+Source: python3-pynput
+Section: unknown
+Priority: optional
+Maintainer: Paul Knopf <pauldotknopf@gmail.com>
+Build-Depends: debhelper (>= 10),
+  python3,
+  dh-python,
+  python3-setuptools-lint,
+  python3-sphinx,
+  python3-xlib
+Standards-Version: 4.1.2
+Homepage: https://github.com/moses-palmer/pynput
+
+Package: python3-pynput
+Architecture: all
+Depends: ${misc:Depends}, python3-six, python3-xlib
+Description: Monitor and control user input devices

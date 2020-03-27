@@ -1,0 +1,5 @@
+*.debhelper
+*.substvars
+*-build-stamp
+files
+python3-pynput
